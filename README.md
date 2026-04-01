@@ -38,7 +38,6 @@ int main() {
 
     return 0;
 }
-
 /**
  * Function: calculateSimpleInterest
  * --------------------------------
@@ -64,12 +63,8 @@ Q. no2:write problem statement
 Problem Statement:
 A student management system needs to calculate total and average 
 marks of 5 subjects. Write a C program using functions to compute total and percentage.
-Description: The system should take marks of 5 subjects as input and calculate total and 
-percentage using functions.
-Requirements:
-• Use function for total and percentage 
-• Input marks from user 
-• Display total and percentage
+
+
 solution:
 #include <stdio.h>
 
@@ -145,20 +140,7 @@ Problem Statement:
 An ATM machine needs to check whether the entered PIN is correct. 
 Write a C program that takes a PIN from the user and compares it with a predefined PIN using a 
 function.
-Description: In an ATM, before doing any transaction, the user must enter a correct PIN.
-If the PIN is correct, the user can access the system. If the PIN is wrong, access is denied.
-In this program, you will create a simple ATM system where:
-• The user enters a PIN 
-• The program checks whether it matches a fixed PIN (for example: 1234) 
-• Based on the result, a message is displayed 
-This will help you understand how functions and conditions (if-else) work in real-life situations.
-Requirements:
-• Use a user-defined function to check the PIN 
-• Take PIN input from the user 
-• Compare it with predefined PIN (1234) 
-• Display: 
-o "Access Granted" if correct 
-o "Invalid PIN" if incorrect
+
 solution:
 #include <stdio.h>
 
@@ -202,27 +184,8 @@ Access Granted
 
 Q. no4:write problem statement
 Problem 6: Library Fine System
-Problem Statement: A library system needs to calculate late fine for books returned after the 
-due date. Write a C program that takes the number of late days as input and calculates the fine 
-using a function.
-Description: In a library, students must return books on time. If a book is returned late, a fine is 
-charged based on the number of delayed days.
-In this program, you will:
-• Take the number of late days as input 
-• Apply the fine rule: 
-o If days > 5 → ₹2 per day 
-o Otherwise → No fine 
-• Display the total fine 
-This problem helps in understanding functions and conditional statements (if-else).
-Requirements:
-• Use a user-defined function to calculate fine 
-• Take number of late days as input 
-• Apply condition for fine calculation 
-• Display: 
-o Fine amount if applicable 
-o "No Fine" if days ≤ 5 
-Function (Hint): int calculateFine(int days);
-Input Format: Enter number of late days
+Problem Statement: A library system needs to calculate late fine for books returned after the due date.
+
 solution:
 #include <stdio.h>
 
@@ -276,24 +239,7 @@ Q. no5: write problem statement
 em 7: Prime Number Checker
 Problem Statement: A teacher wants to identify whether a given number is a prime number. 
 Write a C program that takes a number as input and checks whether it is prime using a function.
-Description: A prime number is a number that is divisible only by 1 and itself.
-Examples:
-• 2, 3, 5, 7 → Prime 
-• 4, 6, 8 → Not Prime 
-In this program, you will:
-• Take a number as input 
-• Check whether it is divisible by any number other than 1 and itself 
-• Use a function to perform the check 
-• Display the result 
-This helps in understanding functions, loops, and logical conditions.
-Requirements:
-• Use a user-defined function to check prime number 
-• Take input from the user 
-• Check divisibility using loop 
-• Display: 
-o "Prime" if number is prime 
-o "Not Prime" if not 
-Function (Hint): int isPrime(int nu
+
 solution:
 #include <stdio.h>
 
